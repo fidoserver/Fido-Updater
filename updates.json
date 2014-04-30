@@ -1,0 +1,12 @@
+{
+  "1": {
+    "version": "1.0.1",
+    "description": "First update.",
+    "script": "1.js"
+  },
+  "2": {
+    "version": "1.0.2",
+    "description": "Another test.",
+    "script": "2.js"
+  }
+}
