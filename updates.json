@@ -8,5 +8,10 @@
     "version": "1.0.2",
     "description": "Another test.",
     "script": "2.js"
+  },
+  "3": {
+    "version": "1.0.3",
+    "description": "Another test.",
+    "script": "3.js"
   }
 }

@@ -4,11 +4,11 @@ var Backbone = require('backbone')
 var _ = require('underscore')
 var express = require('express')
 var server = express()
-var findAvailableUpdates = require('./lib/FindAvailableUpdates.js')
+var getAvailableUpdates = require('./lib/GetAvailableUpdates.js')
 
-server.get('/find-available-updates', function(req, res) {
-  findAvailableUpdates(function(err, updates) {
-    if (err) return log('FindAvailableUpdates', err)
+server.get('/get-available-updates', function(req, res) {
+  getAvailableUpdates(function(err, updates) {
+    if (err) return log('GetAvailableUpdates', err)
     res.send(JSON.stringify(updates))
   })
 })
@@ -18,8 +18,8 @@ server.get('/run-available-updates', function(req, res) {
   var availableUpdates
 
   var a = function() {
-    findAvailableUpdates(function(err, results){
-      if (err) return log('FindAvailableUpdates', err)
+    getAvailableUpdates(function(err, results){
+      if (err) return log('GetAvailableUpdates', err)
       if (results.length == 0) return res.send('Nothing to do')
       availableUpdates = results
       b()
