@@ -13,5 +13,10 @@
     "version": "1.0.3",
     "description": "Another test.",
     "script": "3.js"
+  },
+  "4": {
+    "version": "1.0.4",
+    "description": "Beta1",
+    "script": "4.js"
   }
 }
