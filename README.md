@@ -14,4 +14,5 @@ update-rc.d fido-updater default;
 cp utils/config.default.json ./config.json;
 ```
 
-
+# Credits 
+Originally forked from http://github.com/apitronics/Hive-Updater
