@@ -11,7 +11,7 @@ cd Fido-Updater;
 cp util/cron.d/fido-updater /etc/cron.d/;
 cp util/init.d/fido-updater /etc/init.d/;
 update-rc.d fido-updater default;
-cp utils/config.default.json ./config.json;
+cp util/config.default.json ./config.json;
 ```
 
 # Credits 
