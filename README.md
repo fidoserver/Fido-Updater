@@ -11,7 +11,7 @@ cd Fido-Updater
 npm install
 cp util/cron.d/fido-updater /etc/cron.d/;
 cp util/init.d/fido-updater /etc/init.d/;
-update-rc.d fido-updater default;
+update-rc.d fido-updater defaults;
 cp util/config.default.json ./config.json;
 ```
 
