@@ -7,11 +7,12 @@ A set of scripts from the Fido project to keep your Fido device up to date.
 ```
 cd /root/;
 git clone https://github.com/rjsteinert/Fido-Updater.git;
-cd Fido-Updater;
+cd Fido-Updater
+npm install
 cp util/cron.d/fido-updater /etc/cron.d/;
 cp util/init.d/fido-updater /etc/init.d/;
-update-rc.d fido-updater default;
-cp utils/config.default.json ./config.json;
+update-rc.d fido-updater defaults;
+cp util/config.default.json ./config.json;
 ```
 
 # Credits 
