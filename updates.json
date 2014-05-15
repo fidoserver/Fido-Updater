@@ -1,27 +1,7 @@
 {
-  "1": {
+  "0.0.1": {
     "version": "0.0.1",
-    "description": "First update.",
-    "script": "1.js"
-  },
-  "2": {
-    "version": "0.0.2",
-    "description": "Another test.",
-    "script": "2.js"
-  },
-  "3": {
-    "version": "0.0.3",
-    "description": "Another test.",
-    "script": "3.js"
-  },
-  "4": {
-    "version": "0.0.4",
-    "description": "Beta1",
-    "script": "4.js"
-  },
-  "5": {
-    "version": "0.0.4",
-    "description": "Restart the fido process",
-    "script": "5.js"
+    "description": "Update to 0.0.1",
+    "script": "0.0.1.js"
   }
 }
