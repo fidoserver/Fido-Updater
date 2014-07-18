@@ -13,5 +13,10 @@
     "version": "0.0.3",
     "description": "Update to 0.0.3",
     "script": "0.0.3.js"
+  },
+  "0.0.4": {
+    "version": "0.0.4",
+    "description": "Update to 0.0.4",
+    "script": "0.0.4.js"
   }
 }
