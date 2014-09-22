@@ -18,5 +18,10 @@
     "version": "0.0.4",
     "description": "Update to 0.0.4",
     "script": "0.0.4.js"
+  },
+  "0.0.5": {
+    "version": "0.0.5",
+    "description": "Add support for GrovePi",
+    "script": "0.0.5.js"
   }
 }
