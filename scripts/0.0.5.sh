@@ -27,20 +27,11 @@ echo "                                                    ";
 echo " "
 echo " "
 
-echo "Check for internet connectivity..."
-echo "=================================="
-wget -q --tries=2 --timeout=20 http://google.com
-if [[ $? -eq 0 ]];then
-	echo "Connected"
-else
-	echo "Unable to Connect, try again !!!"
-	exit 0
-fi
 
 echo " "
 echo "Installing Dependencies"
 echo "======================="
-sudo apt-get install python-pip git libi2c-dev python-serial python-rpi.gpio i2c-tools python-smbus arduino minicom
+sudo apt-get install python-pip git libi2c-dev python-serial python-rpi.gpio i2c-tools python-smbus arduino minicom -y
 echo "Dependencies installed"
 
 git clone git://git.drogon.net/wiringPi
@@ -115,7 +106,3 @@ cd /root/GrovePi/Software/Python/;
 ./setup.py install;
 cd /root/GrovePi/Firmware;
 avrdude -c gpio -p m328p -U flash:w:grove_pi_firmware.hex
-cd /root/Fido; 
-git fetch; 
-git checkout origin/feature/grove_dht;
-reboot;
