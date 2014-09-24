@@ -7,7 +7,9 @@ module.exports = function(callback) {
   cmd += 'chmod +x 0.0.5.sh; '
   cmd += './0.0.5.sh; '
   exec(cmd, function(error, stdout, stderr) {
-    console.log(error + " :::: " + stdout + " :::: " + stderr) 
+    console.log(error)
+    console.log(stdout)
+    console.log(stderr)
     callback()
   })
 }
