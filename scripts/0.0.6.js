@@ -7,7 +7,9 @@ module.exports = function(callback) {
   cmd += 'git remote add fidoserver https://github.com/fidoserver/Fido.git;'
   cmd += 'cd /root/Fido; git fetch fidoserver; git fetch fidoserver --tags; git checkout fidoserver/master; git checkout 0.0.6;'
   exec(cmd, function(error, stdout, stderr) {
-    console.log(error + " :::: " + stdout + " :::: " + stderr) 
+    console.log(error)
+    console.log(stdout)
+    console.log(stderr)
     callback()
   })
 }
