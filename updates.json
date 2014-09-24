@@ -16,12 +16,12 @@
   },
   "0.0.4": {
     "version": "0.0.4",
-    "description": "Update to 0.0.4",
+    "description": "Update the Temper1 driver",
     "script": "0.0.4.js"
   },
   "0.0.5": {
     "version": "0.0.5",
-    "description": "Add support for GrovePi",
+    "description": "Add support for GrovePi. Attach the jumper wire for firmware updates to the GrovePi!",
     "script": "0.0.5.js"
   },
   "0.0.6": {
