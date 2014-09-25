@@ -28,5 +28,10 @@
     "version": "0.0.6",
     "description": "Add support for users choosing which sensor they want Fido to read from",
     "script": "0.0.6.js"
+  },
+  "0.0.6.1": {
+    "version": "0.0.6.1",
+    "description": "Add support for users choosing which sensor they want Fido to read from",
+    "script": "0.0.6.1.js"
   }
 }
